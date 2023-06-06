@@ -1,8 +1,46 @@
-# Ecommerce-Website
-Responsive Online Ecommerce Store with (shopping cart solution). In this e-commerce website, a customers can process orders, accept payments, manage shipping and provide customer service. 
+# Fashion-Hub Online Clothing Store
 
-The e-commerce website will have a login/sign-up functionality that will allow users to create an account and log in to the website. Once the user has created an account, they can view desired items on the website. The website will be designed to be fully responsive, ensuring that it can be accessed on any device, including smartphones, tablets, and laptops.
+An Ecommerce Clothing Store Website
 
-The website will have a shop section that will allow users to browse and select items that they want to purchase. Users will be able to add items to their cart for later purchase. The cart will allow users to view the items that they have selected and adjust the quantities as required.
+# Instructions
 
-To facilitate online payments, the website will have a payment gateway that will allow users to make payments securely. The payment gateway will be integrated with the website, ensuring that users can make payments easily and quickly. It'll be developed on PHP.
+To get the website up and running on your machine, you will need [XAMPP](https://www.apachefriends.org/download.html). After installtion, follow the steps below.
+
+1. Clone the repository using this command.
+   ```python
+   git clone https://github.com/FK-cloud/Ecommerce-Clothing-Website.git
+   ```
+2. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
+3. Start Apache and MySQL from XAMPP control panel.
+4. Open browser and write `localhost` in the url bar and XAMPP interface will open. Navigate to phpMyAdmin using Navbar.
+5. Import the `store.sql` file in the phpMyAdmin panel in XAMPP.
+6. You might need to provide the root user password in the `functions.php` and `db.php` in `mysqli_connect()` if you have already mySQL installed on your machine.
+7. Type in the browser url bar
+   ```python 
+   localhost/Ecommerce-Clothing-Website
+   ```
+   Congrats! The Website is live on your machine.
+
+## Features
+
+1. Customer Registration
+2. Customer Login
+3. Search Products
+4. Products Add to Cart
+5. Customer Profile Page
+
+### Front-End Development
+
+HTML, CSS, JQuery and Bootstrap
+
+### Back-End Development
+
+Implemented using PHP and integrated with MySQLi database for storing data
+
+### Sliders
+
+owl.carousel.js used for creating products sliders
+
+### Icons
+
+Font Awesome and Elegent Icons
